@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test Env') {
             steps {
-               echo 'Hello world"
+               echo 'Hello world'
               sh 'echo name = $name'   
          
             }
