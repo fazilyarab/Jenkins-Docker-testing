@@ -1,5 +1,5 @@
 # base image
-FROM ubunt
+FROM ubuntu
 
 RUN /bin/bash -c 'echo This file from docker-file'
 
